@@ -5,7 +5,7 @@ import { Link, NavLink, Outlet } from 'react-router-dom';
 import navLogo from '../../assets/atem-logo-with-wings-black.svg';
 import Footer from '../footer/footer.component';
 //import Footer from '../../components/footer/footer.component';
-import './navigation.styles.scss';
+import './navigation.styles.css';
 
 const Navigation: React.FC = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
