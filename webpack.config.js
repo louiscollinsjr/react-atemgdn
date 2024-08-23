@@ -57,6 +57,19 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'images/', // Adjust the output path as needed
+            },
+          },
+        ],
+      },
+     
     ],
   },
   plugins: [
