@@ -2330,6 +2330,11 @@ fill-range@^7.1.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-obj@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-5.1.0.tgz#5bd89676000a713d7db2e197f660274428e524ed"
+  integrity sha512-qWeTREPoT7I0bifpPUXtxkZJ1XJzxWtfoWWkdVGqa+eCr3SHW/Ocp89o8vLvbUuQnadybJpjOKu4V+RwO6sGng==
+
 finalhandler@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.2.0.tgz#7d23fe5731b207b4640e4fcd00aec1f9207a7b32"
@@ -2371,6 +2376,15 @@ flat@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
   integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
+
+fluid-tailwind@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/fluid-tailwind/-/fluid-tailwind-1.0.3.tgz#a727261f207d73336c01d22c63fdad14ed4049a2"
+  integrity sha512-JhSklHiXUcKnb/PIru1TbyorLD+k0rCIgeAbFwzu1QyQHYDKmKKsKzN7xPisSeGGr7FtYY9S63t+tzddUlxxrQ==
+  dependencies:
+    filter-obj "^5.1.0"
+    map-obj "^5.0.2"
+    picocolors "^1.0.0"
 
 follow-redirects@^1.0.0:
   version "1.15.6"
@@ -2935,6 +2949,11 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
+
+map-obj@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-5.0.2.tgz#174ad9f7e5e4e777a219126d9a734ff3e14a1c68"
+  integrity sha512-K6K2NgKnTXimT3779/4KxSvobxOtMmx1LBZ3NwRxT/MDIR3Br/fQ4Q+WCX5QxjyUR8zg5+RV9Tbf2c5pAWTD2A==
 
 media-typer@0.3.0:
   version "0.3.0"
