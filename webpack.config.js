@@ -45,6 +45,18 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.(mp4|webm)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'videos/', // Specifies the output directory for video files
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

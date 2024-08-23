@@ -5,7 +5,7 @@ module.exports = {
   content: {
   files:["./src/**/*.{js,jsx,ts,tsx}", 
   "./public/index.html"],
-  extract },
+extract},
   theme: {
     
     fontFamily: {

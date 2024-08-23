@@ -16,7 +16,7 @@ const Navigation: React.FC = () => {
 
   return (
     <Fragment>
-      <nav className="md:h-auto bg-black md:bg-white fixed w-full z-50 backdrop-filter backdrop-blur-lg md:bg-opacity-30">
+      <nav className="md:h-auto bg-black md:bg-white fixed  top-0 left-0 w-full z-50 backdrop-filter backdrop-blur-lg md:bg-opacity-30">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-4  py-3 flex justify-between items-center">
           <div className="flex items-center">
             <NavLink to="/" end>

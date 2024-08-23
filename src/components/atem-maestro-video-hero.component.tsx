@@ -1,5 +1,7 @@
 import React from "react";
+import { useEffect, useState, useRef } from 'react';
 
+import atemMaestroMP4 from '../assets/atem-maestro.mp4';
 import atemMaestroWBEM from '../assets/atem-maestro.webm';
 
 const AtemMaestroVideoHero: React.FC = () => {
@@ -117,7 +119,7 @@ const AtemMaestroVideoHero: React.FC = () => {
             loop={true}
             playsInline
           >
-            
+             <source src={atemMaestroMP4} type="video/mp4" />
             <source src={atemMaestroWBEM} type="video/webm"></source>
             Your browser does not support the video tag.
           </video>
