@@ -1,9 +1,9 @@
 {
-    "short_name": "atemgdn App",
-    "name": "atemgdn",
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
-  }
-  
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
